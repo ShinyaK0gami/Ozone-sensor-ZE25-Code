@@ -1,13 +1,13 @@
-# ZE25-O₃ Sensor Interface with ESP32 (UART + Analog)
+# ZE27-O₃ Sensor Interface with ESP32 (UART + Analog)
 
-This project demonstrates how to interface the **Winsen ZE25-O₃ ozone gas sensor** with an **ESP32** using both its **UART (digital)** and **analog** outputs.
+This project demonstrates how to interface the **Winsen ZE27-O₃ ozone gas sensor** with an **ESP32** using both its **UART (digital)** and **analog** outputs.
 The code reads real-time ozone concentration data in **ppm** through UART communication and cross-verifies it using the analog voltage output.
 
 ---
 
 ## 🧠 Overview
 
-The **ZE25-O₃** sensor provides:
+The **ZE27-O₃** sensor provides:
 
 * **UART output** — Digital frame containing gas concentration.
 * **Analog output (AOUT)** — Voltage proportional to ozone concentration.
@@ -76,7 +76,7 @@ So the slope ≈ 0.16 V/ppm.
 ## 🧪 Output Example
 
 ```
-ZE25-O₃ Sensor Test (UART + Analog)
+ZE27-O₃ Sensor Test (UART + Analog)
 UART Ozone: 0.005 ppm  Analog: 0.47 V → 0.43 ppm
 UART Ozone: 0.007 ppm  Analog: 0.48 V → 0.50 ppm
 ```
@@ -87,7 +87,7 @@ UART Ozone: 0.007 ppm  Analog: 0.48 V → 0.50 ppm
 
 * **ESP32** board (any model)
 * **Arduino IDE**
-* **Winsen ZE25-O₃ sensor**
+* **Winsen ZE27-O₃ sensor**
 * Jumper wires and optional breadboard
 
 ---
